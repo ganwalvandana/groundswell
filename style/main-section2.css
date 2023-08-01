@@ -1,0 +1,28 @@
+.sectionB{
+    margin-bottom: 40px;
+    border-bottom: 2px solid rgb(230, 229, 229);
+}
+
+
+
+.trusted-by{
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px;
+}
+
+.investor-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 60px;
+}
+
+.investor{
+    margin-left: 40px;
+    max-width: 100%;
+    height: auto;
+}    

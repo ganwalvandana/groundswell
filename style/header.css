@@ -1,0 +1,72 @@
+#header{
+    display: flex;
+    padding: 0 200px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: white;
+    z-index: 1000;
+}
+
+.groundswell-logo, .header-menu{
+    flex: 1.5 1;
+}
+
+.header-menu{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 16px;
+    
+   
+}
+.arrow {
+    border: solid ;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    align-items: center;
+    color: #23E0B8;
+    margin-left: 4px;
+    margin-bottom: 2px;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+#logo{
+    margin-left: 20px;
+}
+
+.request-btn{
+    color: white;
+    background-color: #0B4F41;
+    padding: 18px 21.25px;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-right: 18px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.request-btn:hover{
+    background-color: #f78da7;
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}

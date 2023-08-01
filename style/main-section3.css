@@ -1,0 +1,72 @@
+.sectionC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+.why-groundswell{
+    font-size: 24px;
+    font-weight: bold;
+    
+    
+    
+}
+
+.reason{
+    font-size: 24px;
+    color: #041E19;
+    margin-top: 0;
+    width: 800px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.donor{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.reason-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.reason1{
+    margin-left: 100px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #0B4F41;
+    cursor: pointer;
+}
+
+.heading-reason{
+    color: #0B4F41;
+}
+
+svg, object{
+    stroke: #041E19;
+}
+
+.reason1:hover svg {
+  stroke: #f78da7;
+} 
+.para-reason{
+    opacity: 0;
+}
+
+.reason1:hover .para-reason{
+    opacity: 1;
+}
+
+
+
+
